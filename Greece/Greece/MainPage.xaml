@@ -13,31 +13,33 @@
         <Image Aspect="AspectFill" Source="room1.png" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
         <Image Aspect="AspectFit" Source="monster1.png" Grid.Row="0" Grid.Column="1" WidthRequest="150"/>
         <Grid Grid.Row="0" Grid.Column="1">
-            <Image Aspect="AspectFit" Source="monster1.png" Grid.Row="0" Grid.Column="0" WidthRequest="350"/>
+            <Image Aspect="AspectFit" Source="monster1.png" VerticalOptions="Start" HorizontalOptions="Start" Grid.Row="1" Grid.Column="0" WidthRequest="100"/>
+            <Image Aspect="AspectFit" Source="monster1.png" VerticalOptions="Start" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0" WidthRequest="100"/>
+            <Image Aspect="AspectFit" Source="monster1.png" VerticalOptions="Start" HorizontalOptions="End" Grid.Row="1" Grid.Column="0" WidthRequest="100"/>
         </Grid>
-        <Image Aspect="AspectFit" Source="monster1.png" Grid.Row="0" Grid.Column="2" WidthRequest="150"/>
+        <Image Aspect="AspectFit" Source="monster1.png" Grid.Row="0" Grid.Column="2" WidthRequest="10"/>
         
-        <ImageButton Source="monster1.png"
+        <ImageButton Source="right_button.png"
                      Clicked="ImageButton_Clicked"
                      HorizontalOptions="Center"
                      VerticalOptions="Center"
                      Grid.Row="0"
                      Grid.Column="2"
-                     WidthRequest="150" />
+                     WidthRequest="100" />
 
-        <ImageButton Source="monster1.png"
+        <ImageButton Source="left_button.png"
              Clicked="ImageButton_Clicked"
              HorizontalOptions="Center"
              VerticalOptions="Center"
              Grid.Row="0"
              Grid.Column="0"
-             WidthRequest="150" />
+             WidthRequest="100" />
 
-        <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="0"/>
-        <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="1"/>
-        <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="2"/>
-        <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="0"/>
-        <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="1"/>
-        <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="2"/>
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="0"/> -->
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="1"/> -->
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="1" Grid.Column="2"/> -->
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="0"/> -->
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="1"/> -->
+        <!-- <Button Text="Botão na parte inferior" Grid.Row="2" Grid.Column="2"/> -->
     </Grid>
 </ContentPage>
